@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sales.Master" Inherits="FileUpload_demo.Sales" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="padding:10px">
+            <a href="/home">HOME</a>
+            |<a href="/salesTerritories">SALES TERRITORY</a>
+            |<a href="/salesForces">SALES FORCE</a>
+            
+        </div>
+        
+        <div style="padding:10px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
